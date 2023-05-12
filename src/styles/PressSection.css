@@ -4,6 +4,7 @@
     flex-direction: column;
     text-align: center;
     margin-top: 5%;
+    justify-content: space-around;
 }
 .titlePress{
    color: #221F20;

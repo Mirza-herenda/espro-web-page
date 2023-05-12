@@ -9,7 +9,7 @@
     position: relative;
 }
 .productImg{
-    width: 510px;
+    width: 411px;
     height: 515px;
     object-fit: cover;
 }
@@ -23,15 +23,17 @@
     grid-gap: 5%;
     position: relative;
     justify-content: center;
+    text-align: center;
+    margin-top: 2%;
 }
 .ProjectTitle{
     position: absolute;
-    top: 10%;
+    top: 5%;
     font-family: "Josefin Sans";
     font-weight: bold;
     color: white;
     font-size: 22px;
-    padding-left: 2%;
+    padding-left: 4%;
 }
 .ShopButton
 {

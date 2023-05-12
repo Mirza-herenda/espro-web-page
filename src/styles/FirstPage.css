@@ -92,7 +92,7 @@ left: 50%;
 transform: translate(-50%, -50%);
 gap: 10%;
 display: inline-block;
-/* animation: bounce 0.5s infinite alternate; */
+animation: bounce 0.5s infinite alternate;
 }
 .explore{
   top: 115%;
@@ -101,14 +101,14 @@ transform: translate(-50%, -50%);
 text-align: center;
 align-items: center;
 }
-/* @keyframes bounce {
+@keyframes bounce {
   from {
     transform: translateY(0);
   }
   to {
     transform: translateY(-10px);
   }
-} */
+}
 
 @media  screen and (max-width:600px) {
   .BigTitle{

@@ -10,12 +10,12 @@ export const ProductList = [
   },
   {
     id: "2",
-    img: img2,
+    img: img3,
     name: "POUR OVER",
   },
   {
     id: "3",
-    img: img3,
+    img: img2,
     name: "COLD BREW",
   },
 ];

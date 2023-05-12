@@ -1,4 +1,4 @@
-import img from "../components/Assets/images/test.png";
+import img from "../components/Assets/images/section4-1.png";
 import star from "../components/Assets/icons/Path 223@2x.png";
 
 export const ListOfCups = [

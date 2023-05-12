@@ -86,17 +86,18 @@ position: relative;
 
 .rightImg{
     width: 440px;
-    height: 440px;
+    height: 400px;
     margin-top: 1%;
 
 }
 .titleAboveImg{
     position: absolute;
     color: #AACBD8;
-    font-size: 84px;
+    font-size: 80px;
     font-family:"Barlow Condensed",bold;
-    padding-left: 5%;
+    padding-left: 2%;
     top: 85%;
+    width: 870px;
 }
 
 @media screen and (max-width:600px) {

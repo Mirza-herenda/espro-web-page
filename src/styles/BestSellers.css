@@ -28,7 +28,13 @@ height: 248px
 height: 260px;
 background-color: white;
 position: relative;
+transition: transform 0.2s ease-in-out;
+object-fit: cover;
 }
+.divImage:hover{
+    transform: scale(1.2);
+  
+  }
 .desc{
     position: absolute;
     top:0%;
@@ -62,13 +68,9 @@ text-align: left;
   display: inline-block;
   width: 300px;
   height: 295px;
-  transition: transform 0.2 ease;
-}
+  margin-top: 2%;
 
-.wrapper:hover{
-    transform: translateY(-5px);
-  
-  }
+}
 p{
     font-size: 14px;
     font-family: 'Josefin Sans', sans-serif;
