@@ -1,0 +1,67 @@
+.firstBox{
+    background-color:rgba(141, 185, 202, 1) !important;
+    height: 37px !important;
+    opacity: 1 !important;
+}
+.title{
+    color:rgba(255, 255, 255, 1) !important;
+    text-align: center !important;
+    font-family:'Josefin Sans' !important;
+    font-weight: bold;
+    font-size: 11px;
+    letter-spacing: 1.65px;
+    text-transform: uppercase;  
+    opacity: 1;  
+margin-top: 1%;
+}
+.arrow2{
+    font-size: 12px !important;
+}
+.srcLogo{
+    width: 121px !important;
+    height: 28px !important;
+    margin-left: 15% !important;
+}
+.secondBox{
+    height: 66px !important;
+    background-color: rgba(255, 255, 255, 1) !important;
+    opacity: 1 !important;
+}
+.BtnHeader{
+    color: rgba(34, 31, 32, 1) !important;
+    font-family:'Josefin Sans' !important;
+    font-weight: bolder;
+}
+.rightCorner{
+    display: flex;
+}
+.icons{
+    display: flex;
+}
+.counterBtn{
+    background-color: rgba(101, 154, 177, 1) !important;
+    color: rgba(34, 31, 32, 1) !important;
+    width: 24px;
+    height: 24px;
+    font-size: small !important;
+    margin-top: 1% !important;
+}
+.HambMenu{
+  color: black !important;
+}
+.resposiveBar{
+display: flex ;
+}
+
+@media screen and (max-width:600px) {
+    .BtnHeader,.counterBtn,.icons{
+        display: none !important;
+    }
+   .resposiveBar{
+    display: flex;
+justify-content: space-between;
+   }
+   .HambMenu{
+    color: black !important;
+  }
+}

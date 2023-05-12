@@ -1,0 +1,111 @@
+.WrapperExprience{
+    width: 100%;
+    height: 80vh;
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.LeftDiv{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    box-sizing: border-box;
+    margin: 0;
+    position: relative;
+    text-align: center;
+
+}
+.titleOne{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 58px;
+    color: #FFFFFF;
+    margin-top: -22%;
+}
+.titleTwo{
+    font-family: 'Nunito', sans-serif;
+    color: #FFFFFF;
+    font-size: 16px;
+    width: 400px;
+    margin-top: 4%;
+}
+.buttonShopTravel{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight:normal ;
+    font-size: 17px;
+    color: rgba(34, 31, 32, 1) !important;
+    background-color: rgba(255, 255, 255, 1) !important;
+  text-align: center !important;
+  position: absolute !important;
+  border: 1px solid black !important;
+  border-radius: 20px !important;
+padding: 10px 26px !important;
+top: 65% !important;
+left: 50% !important;
+transform: translate(-50%, -50%) !important;
+position: absolute;
+width: 208px !important;
+height: 50px !important;
+}
+.buttonShopTravel:hover{
+    width: 222px !important;
+    height: 54px !important;
+}
+.textContainer{
+    position: absolute; 
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.img1{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    object-fit: cover;
+    box-sizing: border-box;
+}
+.rightDiv{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+background-color: #8DB9CA;
+text-align: center;
+justify-content: center;
+align-items: center;
+position: relative;
+}
+
+.rightImg{
+    width: 440px;
+    height: 440px;
+    margin-top: 1%;
+
+}
+.titleAboveImg{
+    position: absolute;
+    color: #AACBD8;
+    font-size: 84px;
+    font-family:"Barlow Condensed",bold;
+    padding-left: 5%;
+    top: 85%;
+}
+
+@media screen and (max-width:600px) {
+    .WrapperExprience{
+        margin-top: 40%;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        justify-content: center;
+        text-align: center;
+    }
+    
+}

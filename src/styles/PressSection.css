@@ -1,0 +1,34 @@
+
+.pressSection{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 5%;
+}
+.titlePress{
+   color: #221F20;
+   font-family: "Josefin Sans",bold;
+   font-size: 12px;
+}
+.textPart{
+    width: 850px;
+    height: 106px;
+    display: grid;
+    margin-left: 29%;
+}
+.quotes{
+    font-size: 22px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    margin-top: 5%;
+}
+.logo{
+width: 211px;
+height: 46px;
+opacity: 98%;
+}
+.logosDiv{
+display: grid;
+grid-template-columns: repeat(5,1fr);
+margin-top: 5%;
+}

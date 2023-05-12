@@ -1,0 +1,109 @@
+
+
+.MainPart{
+    width: 1290px;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    margin-left: 15.5%;
+    margin-top: 5%;
+}
+.firstTitle{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    width: 208px;
+height: 12px;
+}
+.bigTitle{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    width: 495px;
+height: 96px;
+}
+.leftPart{
+    width: 50%;
+    height: 100%;
+}
+.LeftPart{
+    position: relative;
+}
+.textBox{
+      text-align: left;
+}
+.rightPart{
+    background-color: #84AEC1;
+    width: 630px;
+height: 500px;
+margin-top: 5%;
+position: relative;
+margin-left: 5%;
+}
+.descParagraph{
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    font-family: 16px;
+    width: 520px;
+    height: 172px;
+    margin-top: 20%;
+
+}
+.imgBrew{
+    width: 630px;
+height: 500px;
+object-fit: cover;
+position: absolute;
+top: -10%;
+left: -5%;
+}
+.BrewLogo{
+    position: absolute;
+    top:-25%;
+    left: 85%;
+    /* animation: rotate 10s linear infinite; */
+}
+/* @keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+} */
+ .buttonLearnMore{
+    width: 170px;
+    height: 50px;
+  position: absolute;
+  left: 15%;
+  top:2%;
+  transform: translate(-50%, -50%) !important;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight:normal ;
+  font-size: 12px;
+  color: rgba(34, 31, 32, 1) !important;
+  background-color: rgba(255, 255, 255, 1) !important;
+  border: 1px solid black !important;
+  border-radius: 20px !important;
+padding: 10px 26px !important;
+}
+.buttonLearnMore:hover{
+    width: 180px;
+height: 54px;
+}
+.imgSection{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    margin-top: 3%;
+    grid-gap: 2px;
+    justify-content: center;
+}
+.drinkImg,.drinkImg2,.drinkImg3{
+    width: 250px;
+height: 250px;
+}
+.menM,.womenM{
+    width: 270px;
+height: 270px;
+margin-top: 5%;
+}

@@ -1,0 +1,64 @@
+.MainWrapper{
+    width: 100%;
+    background-color: #EFF5F7;
+    margin-top: 5%;
+    display: grid;
+    position: relative;
+}
+.textDiv{
+    display: flex;
+    justify-content: space-between;
+}
+.text1,.text2{
+    color: #D8E6EB;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: bold;
+    font-size: 90px;
+}
+.imageDiv{
+text-align: center;
+
+}
+.img11{
+    width: 1290px;
+    height: 680px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.textDiv2{
+    position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+    color:white;
+}
+.text3{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 12px;
+}
+.text4{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+    color: white;
+}
+.text5{
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;
+}
+.playBtn{
+    color: white !important;
+    font-size: 12px !important;
+    font-family: 'Josefin Sans', sans-serif !important;
+    border-radius: 20px !important;
+padding: 10px 26px !important;
+width: 173px !important;
+height: 50px !important;
+border: 1px solid white !important;
+margin-left: 1% !important;
+}
+.img12{
+    margin-right: 5%;
+}
