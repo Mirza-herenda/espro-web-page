@@ -34,10 +34,7 @@ function Header() {
                 OUR STORY
               </Button>
             </div>
-            <Button
-              className="srcLogo"
-              sx={{ display: "flex", alignItems: "center" }}
-            >
+            <Button className="srcLogo">
               <img src={logo} alt="ESPRO Logo" />
             </Button>
             <div className="rightCorner">
@@ -72,15 +69,39 @@ function Header() {
                 >
                   0
                 </IconButton>
-                <div className="resposiveBar">
-                  <Button
-                    className="srcLogo"
-                    sx={{ display: "flex", alignItems: "center" }}
-                  >
-                    <img src={logo} alt="ESPRO Logo" />
-                  </Button>
+                <MenuIcon className="HambMenu" style={{ color: "black" }} />
 
-                  <MenuIcon className="HambMenu" style={{ color: "black" }} />
+                <div className="listInResposive">
+                  <div className="modal">
+                    <div>
+                      <Button>X</Button>
+                      <li>
+                        <ui>
+                          <Button className="BtnHeader" sx={{ fontSize: 13 }}>
+                            BREW GUIDES
+                          </Button>
+                          <ui>
+                            <Button className="BtnHeader" sx={{ fontSize: 13 }}>
+                              OUR STORY
+                            </Button>
+                          </ui>
+                          <ui>
+                            <Button
+                              className="srcLogo"
+                              sx={{ display: "flex", alignItems: "center" }}
+                            >
+                              <img src={logo} alt="ESPRO Logo" />
+                            </Button>
+                          </ui>
+                          <ui>
+                            <Button className="BtnHeader" sx={{ fontSize: 13 }}>
+                              BREW GUIDES
+                            </Button>
+                          </ui>
+                        </ui>
+                      </li>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>

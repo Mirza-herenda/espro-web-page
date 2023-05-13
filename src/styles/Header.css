@@ -47,21 +47,50 @@ margin-top: 1%;
     margin-top: 1% !important;
 }
 .HambMenu{
-  color: black !important;
+ display: none !important;
 }
-.resposiveBar{
-display: none ;
+.modal{
+    display: none;
+}
+.srcLogo{
+    display:flex !important	; 
+    align-items:center !important;
+
 }
 
 @media screen and (max-width:600px) {
     .BtnHeader,.counterBtn,.icons{
         display: none !important;
     }
-   .resposiveBar{
+
+  .firstBox{
+    margin-top: 2% !important;
+  }
+  .HambMenu{
+    border: 10px solid rebeccapurple !important;
+    display: flex !important;
+  }
+   .modal {
+    position: fixed;
+    top: 0;
+    right: -120%; /* initially hide the modal to the right */
+    bottom: 0;
+    width: 750px;
+    background-color: black;
+    opacity: 90%;
+    transition: right 0.1 ease-out; /* add a transition effect */
     display: flex;
-justify-content: space-between;
-   }
-   .HambMenu{
-    color: black !important;
+
+  }
+  .srcLogo{
+    margin-right:92% !important;
+width: 100px !important;
+    height: 28px !important;
+  }
+  li
+  {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
   }
 }

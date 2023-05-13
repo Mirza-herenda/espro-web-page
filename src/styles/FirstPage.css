@@ -112,20 +112,38 @@ align-items: center;
 
 @media  screen and (max-width:600px) {
   .BigTitle{
-    font-size: 20px;
+    font-size: 18px;
     position: absolute;
     border: 5px orange;
     color: #fff !important;
     top: 20%;
   }
   .subTitle{
-    font-size: 12px;
+    font-size: 10px;
     color: #fff !important;
     position: absolute;
-    top: 28%;
+    top: 25%;
+    width: 300px;
 
   }
 .mainDiv{
   height: 700px;
 }
+.FirstPageButton{
+  top: 33% !important;
+  width: 150px;
+height: 30px;
+font-size: 10px !important;
+}
+.FirstPageButton:hover{
+  width: 180px;
+  height: 50px;
+}
+.exploreDiv{
+  top: 40%;
+}
+.explore{
+  font-size: 10px;
+}
+
 }
