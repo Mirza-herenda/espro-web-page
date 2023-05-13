@@ -76,3 +76,57 @@ margin-top: 4% !important;
 .img12{
     margin-right: 5%;
 }
+
+
+@media screen and (max-width:600px) {
+    .MainWrapper{
+      margin-top: 0;
+    }
+    .text1, .text2 {
+      font-size:15px;
+      width: 100%;
+    }
+    .textDiv2 {
+      top: 50%;
+    }
+    .text3 {
+      font-size: 10px;
+    }
+    .text4 {
+      font-size: 24px;
+    }
+    .text5 {
+      font-size: 10px;
+      width: 200px;
+    }
+    .playBtn {
+      font-size: 10px !important;
+      padding: 8px 20px !important;
+      width: 100% !important;
+      margin: 4% auto 0;
+    }
+    .imageDiv {
+      text-align: center;
+      width: 100%;
+      height: auto;
+      margin-bottom: 30px;
+    }
+    .img11 {
+      max-width: 100%;
+      height: auto;
+      border-radius: 20px;
+    }
+    .textDiv2 {
+      transform: translate(-50%, -60%);
+    }
+    .playBtn{
+        width: 150px !important;
+        height: 30px !important;
+        font-size: 10px !important;
+    }
+    .textDiv{
+        display: flex;
+        justify-content: space-between;
+        overflow: hidden;
+    }
+  }

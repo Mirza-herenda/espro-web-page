@@ -33,3 +33,38 @@ display: grid;
 grid-template-columns: repeat(5,1fr);
 margin-top: 5%;
 }
+
+@media screen and (max-width:600px) {
+    .pressSection {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5%;
+        border: 1px solid orange;
+    }
+    .titlePress{
+        font-size: 8px;
+        text-align: center;
+        width: 250px;
+        padding: 2%;
+    }
+    .textPart{
+        width:350px;
+        height: 106px;
+        text-align: center;
+    }
+    .quotes{
+        font-size: 10px;
+        margin-left: 0px;
+        text-align: center;
+        width: 250px;
+        padding: 2%;
+    }
+    .logosDiv{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+}

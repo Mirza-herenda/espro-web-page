@@ -115,3 +115,91 @@
 .textBottomRight{
     margin-left: 70%;
 }
+
+
+@media screen and (max-width:600px) {
+    .footerDiv{
+        background-color: #659AB1;
+        padding: 5%;
+    }
+    .footerTitle{
+        font-size: 24px;
+        color: #FFFFFF;
+    }
+    .footerSubTitle{
+        font-size: 14px;
+        color: #FFFFFF;
+    }
+    .TopToolbar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 2.5px dotted #FFFFFF;
+        padding-bottom: 5%;
+        margin-bottom: 5%;
+    }
+    .input{
+        background-color: #84AEC1;
+        color: #FFFFFF;
+        width: 100%;
+        height: 40px;
+        text-align: right;
+        margin-bottom: 5%;
+    }
+    .BtnSignIn{
+        color: #FFFFFF;
+        border: none;
+        font-size: 14px;
+    }
+    .BottomToolBar{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 5%;
+    }
+    .whiteLogo{
+        width: 100px;
+        height: auto;
+    }
+    .leftTitle{
+        font-size: 12px;
+        width: 80px;
+        margin-top: 5%;
+        color: #FFFFFF;
+    }
+    .middle{
+        display: none;
+    }
+    .right{
+        display: none;
+    }
+    .titleMiddle1{
+        font-size: 14px;
+        font-weight: bold;
+    }
+    .subtitleMiddle{
+        font-size: 12px;
+        font-weight: normal;
+        padding: 5%;
+    }
+    .iconsDiv{
+        display: none;
+    }
+    .bottomToolbar{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 5%;
+        font-size: 12px;
+    }
+    .textBottomLeft{
+        margin-left: 5%;
+        margin-bottom: 2%;
+    }
+    .textBottomRight{
+        margin-left: 5%;
+        margin-bottom: 2%;
+    }  
+}

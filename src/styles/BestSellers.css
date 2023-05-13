@@ -88,4 +88,7 @@ p{
     .cup{
         margin-top: 40%;
     }
+    .divImage{
+        transition: none;
+    }
 }
