@@ -82,15 +82,10 @@ p{
         font-size: 30px;
         margin-top: 5%;
     }
-   .wrapper{
-    width: 250px;
-    height: 265px;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-   }
-   .cup{
-    margin-top: 35%;
-    text-align: center;
-   }
+    .List{
+        margin: 0 25px;
+    }
+    .cup{
+        margin-top: 40%;
+    }
 }
