@@ -8,6 +8,7 @@
 .textDiv{
     display: flex;
     justify-content: space-between;
+    overflow: hidden;
 }
 .text1,.text2{
     color: #D8E6EB;

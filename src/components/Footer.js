@@ -15,7 +15,7 @@ import Twittericon from "../components/Assets/icons/twitter.svg";
 
 function Footer() {
   return (
-    <Box sx={{ flexGrow: 1, m: 1 }} className="footerDiv">
+    <Box sx={{ flexGrow: 1, m: 0 }} className="footerDiv">
       <Toolbar className="TopToolbar">
         <div className="topTextBox">
           <h1 className="footerTitle">NEVER MISS A DROP.</h1>

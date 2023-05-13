@@ -42,6 +42,7 @@ margin-top: 5%;
         align-items: center;
         margin-top: 5%;
         border: 1px solid orange;
+        overflow: hidden;
     }
     .titlePress{
         font-size: 8px;

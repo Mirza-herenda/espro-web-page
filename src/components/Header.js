@@ -9,13 +9,12 @@ import searchlogo from "../components/Assets/icons/search-line.svg";
 import Userlogo from "../components/Assets/icons/My Account icon.svg";
 import Shoppinglogo from "../components/Assets/icons/Shopping bag icon.svg";
 import { IconButton } from "@mui/material";
-import arrowDown2 from "../components/Assets/icons/arrow-right-short.svg";
 import { ArrowDownward } from "@mui/icons-material";
 import MenuIcon from "@mui/icons-material/Menu";
 
 function Header() {
   return (
-    <Box sx={{ flexGrow: 1, m: -1 }}>
+    <Box sx={{ flexGrow: 1, m: 0 }}>
       <AppBar className="firstBox" position="static">
         <p className="title">FREE SHIPPING ON ALL U.S. ORDERS $49+</p>
       </AppBar>

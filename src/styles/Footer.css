@@ -44,8 +44,8 @@
     justify-content: space-around !important;
     align-items: center !important;
     height: 100% !important;
-    width: 100% !important;
     margin-top: 5% !important;
+    border: 1px solid orange;
 }
 .left {
     display: grid;
@@ -66,7 +66,7 @@
 .middle{
     display: grid;
     grid-template-columns: repeat(5,1fr);
-    grid-gap: 18%;
+    grid-gap: 14%;
     color: white;
     margin-top: 1%;
     margin-left: -15%;
