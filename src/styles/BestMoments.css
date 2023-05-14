@@ -76,14 +76,14 @@
   .ButtonFollowUs {
     width: 160px;
     font-size: 9px;
-    position: absolute;
-    top: 52%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    animation: none !important;
   }
 
   .imgSection {
-    padding-top: 30%;
+    padding-top: 25%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -93,14 +93,5 @@
     column-gap: 20px;
     width: 260px;
     margin: 5% auto;
-    border: 1px solid orange;
-  }
-
-  .drinkImg,
-  .womenM,
-  .drinkImg3,
-  .menM,
-  .drinkImg2 {
-    transition: none;
   }
 }

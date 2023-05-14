@@ -56,7 +56,6 @@
   height: 302px;
   margin-top: 15%;
   padding-left: 5%;
-  border: 1px solid green;
 }
 .img2 {
   width: 246px;
@@ -91,46 +90,46 @@
   text-align: right;
   width: 500px;
 }
-
+.leftImages {
+  margin-left: -10%;
+}
 @media screen and (max-width: 600px) {
-  .leftImages,
-  .RightImages {
-    display: grid;
-  }
   .img1 {
-    max-width: 150px;
-    padding-left: 2%;
-    margin-top: 10%;
+    max-width: 100px;
+    margin-left: 20% !important;
+    top: 50%;
     opacity: 50%;
   }
 
   .img2 {
-    max-width: 150px;
+    max-width: 100px;
     max-height: 150px;
-    margin-top: 5%;
-    padding-left: 2%;
+    top: 20%;
+    margin-left: -190%;
     opacity: 50%;
   }
 
   .img3 {
-    max-width: 150px;
+    max-width: 100px;
     max-height: 150px;
-    right: 5%;
+    right: 20%;
+    top: 20%;
     opacity: 30%;
+    object-fit: contain;
   }
 
   .img4 {
-    max-width: 150px;
+    max-width: 100px;
     max-height: 150px;
-    left: 5%;
+    margin-left: 10%;
     opacity: 30%;
   }
 
   .img5 {
-    max-width: 150px;
+    max-width: 100px;
     max-height: 150px;
-    right: 2%;
-    top: 8%;
+    left: 92%;
+    margin-top: 12%;
     opacity: 30%;
   }
   .img1 :hover,
@@ -140,11 +139,12 @@
   .img5:hover {
     opacity: 100%;
   }
+
   .title3 {
     font-size: 14px;
   }
 
   .MainDivCoffee {
-    margin-top: 30%;
+    margin-top: 40%;
   }
 }
