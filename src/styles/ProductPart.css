@@ -63,6 +63,7 @@ height: 50px !important;
 @media screen and (max-width:600px) {
     .ExploreProduct{
         margin-top: 90%;
+        font-size: 30px;
     }
     .wrapperOfProducts{
         display: grid;
@@ -97,7 +98,8 @@ height: 50px !important;
     .product{
         width: 270px;
         height: 415px;
-        margin: 0 25px;
+        margin: 0 auto;
+        border: 1px solid orange;
     }
     
 }
