@@ -116,7 +116,8 @@
     font-size: 15px;
     z-index: 1;
   }
-  .productImg {
+  .productImg,
+  .productReplace {
     width: 270px;
     height: 415px;
     object-fit: cover;
