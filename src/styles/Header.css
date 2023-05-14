@@ -1,101 +1,99 @@
-.firstBox{
-    background-color:rgba(141, 185, 202, 1) !important;
-    height: 37px !important;
-    opacity: 1 !important;
+.firstBox {
+  background-color: rgba(141, 185, 202, 1) !important;
+  height: 37px !important;
+  opacity: 1 !important;
 }
-.title{
-    color:rgba(255, 255, 255, 1) !important;
-    text-align: center !important;
-    font-family:'Josefin Sans' !important;
-    font-weight: bold;
-    font-size: 11px;
-    letter-spacing: 1.65px;
-    text-transform: uppercase;  
-    opacity: 1;  
-margin-top: 1%;
+.title {
+  color: rgba(255, 255, 255, 1) !important;
+  text-align: center !important;
+  font-family: "Josefin Sans" !important;
+  font-weight: bold;
+  font-size: 11px;
+  letter-spacing: 1.65px;
+  text-transform: uppercase;
+  opacity: 1;
+  margin-top: 1%;
 }
-.arrow2{
-    font-size: 12px !important;
+.arrow2 {
+  font-size: 12px !important;
 }
-.srcLogo{
-    width: 121px !important;
-    height: 28px !important;
-    margin-left: 20% !important;
+.srcLogo {
+  width: 121px !important;
+  height: 28px !important;
+  margin-left: 20% !important;
+}
+.secondBox {
+  height: 66px !important;
+  background-color: rgba(255, 255, 255, 1) !important;
+  opacity: 1 !important;
+}
+.BtnHeader {
+  color: rgba(34, 31, 32, 1) !important;
+  font-family: "Josefin Sans" !important;
+  font-weight: bolder;
+}
+.rightCorner {
+  display: flex;
+}
+.icons {
+  display: flex;
+}
+.counterBtn {
+  background-color: rgba(101, 154, 177, 1) !important;
+  color: rgba(34, 31, 32, 1) !important;
+  width: 24px;
+  height: 24px;
+  font-size: small !important;
+  margin-top: 1% !important;
+}
+.HambMenu {
+  display: none !important;
+}
+.modal {
+  display: none;
+}
 
-}
-.secondBox{
-    height: 66px !important;
-    background-color: rgba(255, 255, 255, 1) !important;
-    opacity: 1 !important;
-}
-.BtnHeader{
-    color: rgba(34, 31, 32, 1) !important;
-    font-family:'Josefin Sans' !important;
-    font-weight: bolder;
-}
-.rightCorner{
-    display: flex;
-}
-.icons{
-    display: flex;
-}
-.counterBtn{
-    background-color: rgba(101, 154, 177, 1) !important;
-    color: rgba(34, 31, 32, 1) !important;
-    width: 24px;
-    height: 24px;
-    font-size: small !important;
-    margin-top: 1% !important;
-}
-.HambMenu{
- display: none !important;
-}
-.modal{
-    display: none;
-}
+@media screen and (max-width: 600px) {
+  .BtnHeader,
+  .counterBtn,
+  .icons {
+    display: none !important;
+  }
 
-@media screen and (max-width:600px) {
-    .BtnHeader,.counterBtn,.icons{
-        display: none !important;
-    }
+  .firstBox {
+    margin-top: 2% !important;
+  }
 
-    .firstBox{
-        margin-top: 2% !important;
-    }
-    
-    .HambMenu {
-        display: flex !important;
-        color:rgba(141, 185, 202, 1) !important;
-
-    }
-    
-    .modal {
-        position: fixed;
-        top: 0;
-        right: -100%; 
-        width: 750px;
-        background-color: black;
-        opacity: 90%;
-        transition: right 0.1 ease-out;
-    }
-    
-    .srcLogo{
-    
-            width: 100px !important;
-            height: 28px !important;
-            margin-right: auto !important;
-            margin-left: 0 !important;
-        
-    }
-    
-    li {
-        list-style-type: none;
-        padding: 0;
-        margin: 0;
-    }
-    .secondBox{
+  .HambMenu {
     display: flex !important;
- justify-content: space-between !important;
- padding: 6% !important;
-    }
+    color: rgba(141, 185, 202, 1) !important;
+  }
+
+  .modal {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 750px;
+    background-color: black;
+    opacity: 90%;
+    transition: right 0.1 ease-out;
+  }
+
+  .srcLogo {
+    width: 100px !important;
+    height: 38px !important;
+    margin-right: auto !important;
+    margin-left: 0 !important;
+  }
+
+  li {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  .secondBox {
+    display: flex !important;
+    justify-content: space-between !important;
+    padding: 6% !important;
+  }
 }

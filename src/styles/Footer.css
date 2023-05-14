@@ -134,18 +134,38 @@
   .footerSubTitle {
     font-size: 14px;
     color: #ffffff;
+    text-align: center;
+    justify-content: center;
+  }
+  .leftTitle {
+    margin: 10px auto;
   }
   .input {
     position: absolute !important;
-    padding: 2% !important;
+    top: 350% !important;
+    left: 50% !important;
+    transform: translateX(-50%) !important;
     width: 100% !important;
+    max-width: 300px !important;
+    margin: 0 auto !important;
+    padding: 8px !important;
+    font-size: small !important;
+    border: none !important;
+    border-radius: 20px !important;
+    background-color: #659ab1 !important;
+    color: #ffffff !important;
+    height: 70% !important;
+  }
+
+  .btnSignUp {
+    font-size: 10px !important;
   }
 
   .middle {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     margin: 0 auto;
-    padding: 3px;
+    padding: 40px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     grid-gap: 2%;
     grid-row-gap: 10px;
@@ -168,6 +188,14 @@
   .middle4 {
     display: grid;
     grid-gap: 1%;
+    margin: 30px 0;
+  }
+  .middle1 {
+    margin: 45px 0;
+  }
+  .middle2,
+  .middle3,
+  .middle4 {
     margin: 20px 0;
   }
 
@@ -189,6 +217,7 @@
     align-items: center;
     box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
     margin: 0 auto;
+    margin-top: 2%;
   }
 
   .textBottomLeft,
@@ -207,5 +236,8 @@
     display: flex;
     justify-content: center;
     padding: 2%;
+  }
+  .subtitleMiddle:hover {
+    color: gray;
   }
 }

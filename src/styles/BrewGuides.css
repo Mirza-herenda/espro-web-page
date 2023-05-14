@@ -1,232 +1,235 @@
-
-
-.MainPart{
-    width: 1290px;
-    height: 80vh;
-    display: flex;
-    justify-content: center;
-    margin-left: 15.5%;
-    margin-top: 5%;
+.MainPart {
+  width: 1290px;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  margin-left: 15.5%;
+  margin-top: 5%;
 }
-.firstTitle{
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: bold;
-    font-size: 12px;
-    width: 208px;
-height: 12px;
+.firstTitle {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+  width: 208px;
+  height: 12px;
 }
-.bigTitle{
-    font-family: 'Barlow Condensed', sans-serif;
-    font-weight: bold;
-    font-size: 40px;
-    width: 495px;
-height: 96px;
+.bigTitle {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  width: 495px;
+  height: 96px;
 }
-.leftPart{
-    width: 50%;
-    height: 100%;
+.leftPart {
+  width: 50%;
+  height: 100%;
 }
-.LeftPart{
-    position: relative;
+.LeftPart {
+  position: relative;
 }
-.textBox{
-      text-align: left;
+.textBox {
+  text-align: left;
 }
-.rightPart{
-    background-color: #84AEC1;
-    width: 630px;
-height: 500px;
-margin-top: 5%;
-position: relative;
-margin-left: 5%;
+.rightPart {
+  background-color: #84aec1;
+  width: 630px;
+  height: 500px;
+  margin-top: 5%;
+  position: relative;
+  margin-left: 5%;
 }
-.descParagraph{
-    font-family: 'Nunito', sans-serif;
-    font-weight: bold;
-    font-family: 16px;
-    width: 520px;
-    height: 172px;
-    margin-top: 20%;
-
+.descParagraph {
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+  font-family: 16px;
+  width: 520px;
+  height: 172px;
+  margin-top: 20%;
 }
-.imgBrew{
-    width: 630px;
-height: 500px;
-object-fit: cover;
-position: absolute;
-top: -10%;
-left: -5%;
+.imgBrew {
+  width: 630px;
+  height: 500px;
+  object-fit: cover;
+  position: absolute;
+  top: -10%;
+  left: -5%;
 }
-.BrewLogo{
-    position: absolute;
-    top:-25%;
-    left: 85%;
-    animation: rotate 10s linear infinite;
+.BrewLogo {
+  position: absolute;
+  top: -25%;
+  left: 85%;
+  animation: rotate 10s linear infinite;
 }
 @keyframes rotate {
-    0% {
-      transform: rotate(0deg);
-    }
-    100% {
-      transform: rotate(360deg);
-    }
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
- .buttonLearnMore{
-    width: 170px;
-    height: 50px;
+.buttonLearnMore {
+  width: 170px;
+  height: 50px;
   position: absolute;
   left: 15%;
-  top:2%;
+  top: 2%;
   transform: translate(-50%, -50%) !important;
-  font-family: 'Josefin Sans', sans-serif;
-  font-weight:normal ;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: normal;
   font-size: 12px;
   color: rgba(34, 31, 32, 1) !important;
   background-color: rgba(255, 255, 255, 1) !important;
   border: 1px solid black !important;
   border-radius: 20px !important;
-padding: 10px 26px !important;
+  padding: 10px 26px !important;
 }
-.buttonLearnMore:hover{
-    width: 180px;
-height: 54px;
+.buttonLearnMore:hover {
+  width: 180px;
+  height: 54px;
 }
-.imgSection{
+.imgSection {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  margin-top: 3%;
+  grid-gap: 2px;
+  justify-content: center;
+}
+.drinkImg,
+.drinkImg2,
+.drinkImg3 {
+  width: 250px;
+  height: 250px;
+}
+.menM,
+.womenM {
+  width: 270px;
+  height: 270px;
+  margin-top: 5%;
+}
+
+@media screen and (max-width: 600px) {
+  .MainPart {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-left: 0;
+    margin-top: 0;
+    flex-wrap: wrap;
+  }
+
+  .firstTitle {
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: bold;
+    font-size: 8px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+  }
+
+  .bigTitle {
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+  }
+
+  .leftPart {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .textBox {
+    text-align: left;
+  }
+
+  .rightPart {
+    background-color: #84aec1;
+    width: 100%;
+    height: auto;
+    margin-top: 5%;
+    position: relative;
+    margin-left: 0;
+  }
+
+  .descParagraph {
+    font-family: "Nunito", sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    width: 100%;
+    height: auto;
+    margin-top: 10%;
+    text-align: center;
+    justify-content: center;
+    padding: 2%;
+  }
+
+  .imgBrew {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    position: relative;
+    top: 0;
+    left: 0;
+    padding: 2%;
+  }
+
+  .BrewLogo {
+    position: absolute;
+    top: 2%;
+    left: 0%;
+    transition: translate(50%, -50%);
+    animation: rotate 10s linear infinite;
+    width: 52px;
+  }
+
+  .buttonLearnMore {
+    width: 150px;
+    height: auto;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(50%, -50%);
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: normal;
+    font-size: 12px;
+    color: rgba(34, 31, 32, 1);
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px 26px;
+    margin-top: 15% !important;
+  }
+
+  .buttonLearnMore:hover {
+    width: 100%;
+    height: auto;
+  }
+
+  .imgSection {
     display: grid;
-    grid-template-columns: repeat(5,1fr);
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     margin-top: 3%;
     grid-gap: 2px;
     justify-content: center;
-}
-.drinkImg,.drinkImg2,.drinkImg3{
-    width: 250px;
-height: 250px;
-}
-.menM,.womenM{
-    width: 270px;
-height: 270px;
-margin-top: 5%;
-}
+  }
 
-@media  screen and (max-width:600px) {
-    .MainPart{
-        width: 100%;
-        height: auto;
-        display: flex;
-        justify-content: center;
-        margin-left: 0;
-        margin-top: 0;
-        flex-wrap: wrap;
-    }
-    
-    .firstTitle{
-        font-family: 'Josefin Sans', sans-serif;
-        font-weight: bold;
-        font-size: 8px;
-        width: 100%;
-        height: auto;
-        text-align: center;
-    }
-    
-    .bigTitle{
-        font-family: 'Barlow Condensed', sans-serif;
-        font-weight: bold;
-        font-size: 24px;
-        width: 100%;
-        height: auto;
-        text-align: center;
-    }
-    
-    .leftPart{
-        width: 100%;
-        height: auto;
-        display: flex;
-        flex-direction: column;
-    }
-    
-    .textBox{
-        text-align: left;
-    }
-    
-    .rightPart{
-        background-color: #84AEC1;
-        width: 100%;
-        height: auto;
-        margin-top: 5%;
-        position: relative;
-        margin-left: 0;
-    }
-    
-    .descParagraph{
-        font-family: 'Nunito', sans-serif;
-        font-weight: bold;
-        font-size: 12px;
-        width: 100%;
-        height: auto;
-        margin-top: 10%;
-        text-align: center;
-        justify-content: center;
-        padding: 2%;
-    }
-    
-    .imgBrew{
-        width: 100%;
-        height: auto;
-        object-fit: cover;
-        position: relative;
-        top: 0;
-        left: 0;
-        padding: 2%;
-    }
-    
-    .BrewLogo{
-        position: absolute;
-        top: 4%;
-        left: 40%;
-        transition: translate(50%,-50%);
-        animation: rotate 10s linear infinite;
-        width: 52px;
-    }
-    
-    .buttonLearnMore{
-        width: 150px;
-        height: auto;
-        position: relative;
-        left: 50%;
-        top: 50%;
-        transform: translate(50%, -50%);
-        font-family: 'Josefin Sans', sans-serif;
-        font-weight: normal;
-        font-size: 12px;
-        color: rgba(34, 31, 32, 1);
-        background-color: rgba(255, 255, 255, 1);
-        border: 1px solid black;
-        border-radius: 20px;
-        padding: 10px 26px;
-        margin-top: 15% !important;
-    }
-    
-    .buttonLearnMore:hover{
-        width: 100%;
-        height: auto;
-    }
-    
-    .imgSection{
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-        margin-top: 3%;
-        grid-gap: 2px;
-        justify-content: center;
-    }
-    
-    .drinkImg, .drinkImg2, .drinkImg3{
-        width: 100%;
-        height: auto;
-    }
-    
-    .menM, .womenM{
-        width: 100%;
-        height: auto;
-        margin-top: 5%;
-    }
+  .drinkImg,
+  .drinkImg2,
+  .drinkImg3 {
+    width: 100%;
+    height: auto;
+  }
+
+  .menM,
+  .womenM {
+    width: 100%;
+    height: auto;
+    margin-top: 5%;
+  }
 }

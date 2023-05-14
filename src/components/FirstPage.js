@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/FirstPage.css";
-import backImage from "../components/Assets/images/2132C2_6.png";
+import backImage from "../components/Assets/images/mainPic.png";
 import arrowDown from "../components/Assets/icons/arrow-right-short.svg";
 import { Button } from "@mui/material";
 

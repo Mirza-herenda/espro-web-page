@@ -27,11 +27,23 @@ function Footer() {
         <TextField
           className="input"
           label="Enter Your Email Address"
-          sx={{ border: "none" }}
+          sx={{
+            border: "primary",
+            outline: "primary",
+            borderRadius: 7,
+            "& .MuiInputLabel-root": {
+              fontSize: { xs: "10px", sm: "16px" },
+              color: "white",
+            },
+          }}
           InputProps={{
             endAdornment: (
               <InputAdornment position="end">
-                <Button disableElevation style={{ color: "#fff" }}>
+                <Button
+                  className="btnSignUp"
+                  disableElevation
+                  style={{ color: "#fff" }}
+                >
                   Sign Up
                 </Button>
               </InputAdornment>

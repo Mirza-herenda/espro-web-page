@@ -1,74 +1,74 @@
+.pressSection {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 5%;
+  justify-content: space-around;
+}
+.titlePress {
+  color: #221f20;
+  font-family: "Josefin Sans", bold;
+  font-size: 12px;
+}
+.textPart {
+  width: 850px;
+  height: 106px;
+  display: grid;
+  margin-left: 29%;
+}
+.quotes {
+  font-size: 22px;
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+  margin-top: 5%;
+}
+.logo {
+  width: 211px;
+  height: 46px;
+  opacity: 98%;
+}
+.logosDiv {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  margin-top: 5%;
+}
 
-.pressSection{
+@media screen and (max-width: 600px) {
+  .pressSection {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    overflow: hidden;
+  }
+  .titlePress {
+    font-size: 10px;
     text-align: center;
-    margin-top: 5%;
-    justify-content: space-around;
-}
-.titlePress{
-   color: #221F20;
-   font-family: "Josefin Sans",bold;
-   font-size: 12px;
-}
-.textPart{
-    width: 850px;
+    width: 250px;
+    padding: 2%;
+  }
+  .textPart {
+    width: 350px;
     height: 106px;
-    display: grid;
-    margin-left: 29%;
-}
-.quotes{
-    font-size: 22px;
-    font-family: 'Nunito', sans-serif;
-    font-weight: bold;
-    margin-top: 5%;
-}
-.logo{
-width: 211px;
-height: 46px;
-opacity: 98%;
-}
-.logosDiv{
-display: grid;
-grid-template-columns: repeat(5,1fr);
-margin-top: 5%;
-}
-
-@media screen and (max-width:600px) {
-    .pressSection {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin-top: 5%;
-        overflow: hidden;
-    }
-    .titlePress{
-        font-size: 10px;
-        text-align: center;
-        width: 250px;
-        padding: 2%;
-    }
-    .textPart{
-        width:350px;
-        height: 106px;
-        text-align: center;
-    }
-    .quotes{
-        font-size: 10px;
-        margin-left: 0px;
-        text-align: center;
-        width: 250px;
-        padding: 2%;
-    }
-    .logosDiv{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-    }
-    .logo{
-      border-bottom: 1px dotted #84AEC1;
-      height: 58px;
-    }
+    text-align: center;
+  }
+  .quotes {
+    font-size: 10px;
+    margin-left: 0px;
+    text-align: center;
+    width: 250px;
+    padding: 2%;
+  }
+  .logosDiv {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+  }
+  .logo {
+    border-bottom: 1px dotted #84aec1;
+    height: 58px;
+  }
 }
