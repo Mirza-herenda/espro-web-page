@@ -111,7 +111,7 @@
 
 @media screen and (max-width: 600px) {
   .BigTitle {
-    font-size: 24px;
+    font-size: 20px;
     position: absolute;
     border: 5px orange;
     color: #fff !important;
@@ -142,7 +142,7 @@
     height: 50px;
   }
   .exploreDiv {
-    top: 58%;
+    top: 50%;
     left: 48%;
     transition: translate(50%, -50%);
     position: absolute;

@@ -13,7 +13,7 @@ function PressPart() {
   return (
     <div className="pressSection">
       <div className="textPart">
-        <h4 className="titlePress">IN THE PRESS</h4>
+        <h4 className="titlePress fade-in-out">IN THE PRESS</h4>
         <p className="quotes">{quotes}</p>
       </div>
       <div className="logosDiv">

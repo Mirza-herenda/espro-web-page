@@ -1,12 +1,13 @@
 import img from "../components/Assets/images/section4-1.png";
-import img1 from "../components/Assets/images/bestseller1.png";
-import img3 from "../components/Assets/images/bestseller3.png";
+import img1 from "../components/Assets/images/product1.png";
+import img3 from "../components/Assets/images/product2.png";
+import img4 from "../components/Assets/images/product3.png";
 import star from "../components/Assets/icons/Path 223@2x.png";
 
 export const ListOfCups = [
   {
     id: "1",
-    img: img1,
+    img: img,
     name: "ESPRO COFFEE FRENCH PRESS P7",
     price: "$109.95 - $139.95",
     color1: "#221F20",
@@ -22,7 +23,7 @@ export const ListOfCups = [
   },
   {
     id: "2",
-    img: img,
+    img: img1,
     name: "ESPRO COFFEE FRENCH PRESS P6",
     price: "$89.95 $99.95",
     color1: "##221F20",
@@ -53,7 +54,7 @@ export const ListOfCups = [
   },
   {
     id: "1",
-    img: img,
+    img: img4,
     name: "BLOOM POUR OVER COFFEE BREWING KIT, 18 OZ",
     price: "$99.95",
     star1: star,

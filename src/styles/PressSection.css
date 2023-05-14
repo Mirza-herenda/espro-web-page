@@ -9,18 +9,26 @@
   color: #221f20;
   font-family: "Josefin Sans", bold;
   font-size: 12px;
+  text-align: center;
+  justify-content: center;
+  opacity: 0;
+  animation: fadeInOut 5s linear infinite;
 }
 .textPart {
   width: 850px;
   height: 106px;
   display: grid;
-  margin-left: 29%;
+  width: 850px;
+  height: 106px;
+  margin: 0 auto;
+  text-align: center;
 }
 .quotes {
   font-size: 22px;
   font-family: "Nunito", sans-serif;
   font-weight: bold;
   margin-top: 5%;
+  animation: fadeInOut 5s linear infinite;
 }
 .logo {
   width: 211px;
@@ -32,7 +40,26 @@
   grid-template-columns: repeat(5, 1fr);
   margin-top: 5%;
 }
+.titlePress {
+  color: #221f20;
+  font-family: "Josefin Sans", bold;
+  font-size: 12px;
+  text-align: center;
+  justify-content: center;
+  opacity: 0;
+}
 
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
 @media screen and (max-width: 600px) {
   .pressSection {
     display: flex;
