@@ -1,4 +1,5 @@
 import * as React from "react";
+import { useState } from "react";
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
 import Toolbar from "@mui/material/Toolbar";
@@ -13,6 +14,12 @@ import { ArrowDownward } from "@mui/icons-material";
 import MenuIcon from "@mui/icons-material/Menu";
 
 function Header() {
+  const [ModalIsOpen, setModalIsOpen] = useState(true);
+
+  const OpenListMenu = () => {
+    setModalIsOpen(false);
+    console.log("test");
+  };
   return (
     <Box sx={{ flexGrow: 1, m: 0 }}>
       <AppBar className="firstBox" position="static">
@@ -68,38 +75,37 @@ function Header() {
                 >
                   0
                 </IconButton>
-                <MenuIcon className="HambMenu" style={{ color: "black" }} />
-
-                <div className="listInResposive">
-                  <div className="modal">
-                    <div>
-                      <Button>X</Button>
-                      <li>
+              </div>
+              <MenuIcon className="HambMenu" onClick={OpenListMenu} />
+              <div className="listInResposive" hidden={ModalIsOpen}>
+                <div className="modal">
+                  <div>
+                    <Button>X</Button>
+                    <li>
+                      <ui>
+                        <Button className="BtnHeader" sx={{ fontSize: 13 }}>
+                          BREW GUIDES
+                        </Button>
+                        <ui>
+                          <Button className="BtnHeader" sx={{ fontSize: 13 }}>
+                            OUR STORY
+                          </Button>
+                        </ui>
+                        <ui>
+                          <Button
+                            className="srcLogo"
+                            sx={{ display: "flex", alignItems: "center" }}
+                          >
+                            <img src={logo} alt="ESPRO Logo" />
+                          </Button>
+                        </ui>
                         <ui>
                           <Button className="BtnHeader" sx={{ fontSize: 13 }}>
                             BREW GUIDES
                           </Button>
-                          <ui>
-                            <Button className="BtnHeader" sx={{ fontSize: 13 }}>
-                              OUR STORY
-                            </Button>
-                          </ui>
-                          <ui>
-                            <Button
-                              className="srcLogo"
-                              sx={{ display: "flex", alignItems: "center" }}
-                            >
-                              <img src={logo} alt="ESPRO Logo" />
-                            </Button>
-                          </ui>
-                          <ui>
-                            <Button className="BtnHeader" sx={{ fontSize: 13 }}>
-                              BREW GUIDES
-                            </Button>
-                          </ui>
                         </ui>
-                      </li>
-                    </div>
+                      </ui>
+                    </li>
                   </div>
                 </div>
               </div>

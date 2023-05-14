@@ -59,6 +59,7 @@ function BestSellers() {
                       display: "flex",
                       alignItems: "center",
                       backgroundColor: obj.color3,
+                      border: "red",
                     }}
                   ></IconButton>
                   <IconButton

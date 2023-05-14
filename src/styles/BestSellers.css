@@ -77,18 +77,31 @@ p{
     font-weight: bold;
 }
 
-@media screen and (max-width:600px) {
-    .titleBestSellers{
-        font-size: 30px;
-        margin-top: 5%;
+    @media screen and (max-width:600px) {
+        .titleBestSellers{
+            font-size: 30px;
+            margin-top: 5%;
+        }
+        .cup{
+            margin-top: 40%;
+            text-align: center;
+        }
+        .divImage{
+            margin: 0 auto;
+            transition: none;
+        }
+        .starDiv{
+            display: flex;
+            justify-content: center;
+            text-align: center;
+        }
+        .imgS{
+            text-align: center;
+        }
+        .ColorsDiv{
+            margin: 1%;
+            display: flex;
+            text-align: center;
+            justify-content: center;
+        }
     }
-    .List{
-        margin: 0 25px;
-    }
-    .cup{
-        margin-top: 40%;
-    }
-    .divImage{
-        transition: none;
-    }
-}

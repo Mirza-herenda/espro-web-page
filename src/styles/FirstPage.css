@@ -140,10 +140,21 @@ font-size: 10px !important;
   height: 50px;
 }
 .exploreDiv{
-  bottom: 15%;
+  top: 43%;
+  left: 48%;
+  transition: translate(50%,-50%);
+  position: absolute; 
+  text-align: center; 
+  display: grid;
+  gap: 1%;
 }
 .explore{
-  font-size: 10px;
+  font-size: 14px;
+  font-family: 'Nunito', sans-serif;
+  font-weight:bold ;
+  color: rgba(255, 255, 255,1);
+  margin: 0;
 }
+
 
 }
