@@ -26,7 +26,7 @@ function Footer() {
         </div>
         <TextField
           className="input"
-          label="Enter Your Email Adress"
+          label="Enter Your Email Address"
           sx={{ border: "none" }}
           InputProps={{
             endAdornment: (
@@ -37,7 +37,7 @@ function Footer() {
               </InputAdornment>
             ),
           }}
-        ></TextField>
+        />
       </Toolbar>
       <Toolbar className="BottomToolBar">
         <Box className="middle">
