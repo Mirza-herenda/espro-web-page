@@ -41,11 +41,10 @@ margin-top: 5%;
         justify-content: center;
         align-items: center;
         margin-top: 5%;
-        border: 1px solid orange;
         overflow: hidden;
     }
     .titlePress{
-        font-size: 8px;
+        font-size: 10px;
         text-align: center;
         width: 250px;
         padding: 2%;
@@ -67,5 +66,9 @@ margin-top: 5%;
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
+    }
+    .logo{
+      border-bottom: 1px dotted #84AEC1;
+      height: 58px;
     }
 }

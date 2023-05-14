@@ -118,6 +118,9 @@ position: relative;
         align-items: center;
         position: relative;
     }
+    .img1{
+      border: 1px solid blue;
+    }
       
     
   
@@ -148,7 +151,7 @@ position: relative;
       padding-right: 2%;
     }
     .buttonShopTravel{
-        width: 150px !important;
+        width: 125px !important;
         height: 35px !important;
         font-size: 10px !important;
         margin-top:10% !important ;

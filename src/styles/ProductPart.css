@@ -75,9 +75,13 @@ height: 50px !important;
         font-family: "Josefin Sans";
         font-weight: bold;
         color: white;
-        font-size: 22px;
-        position: static;
-        margin-top: 20%;
+        position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size:15px;
+    z-index: 1;
         }
     .productImg{
         width: 270px;
@@ -99,7 +103,7 @@ height: 50px !important;
         width: 270px;
         height: 415px;
         margin: 0 auto;
-        border: 1px solid orange;
+
     }
     
 }

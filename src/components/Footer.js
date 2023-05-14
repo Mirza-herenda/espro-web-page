@@ -27,6 +27,7 @@ function Footer() {
         <TextField
           className="input"
           label="Enter Your Email Adress"
+          sx={{ border: "none" }}
           InputProps={{
             endAdornment: (
               <InputAdornment position="end">
@@ -59,7 +60,6 @@ function Footer() {
             <h6 className="subtitleMiddle">FAQ Our </h6>
             <h6 className="subtitleMiddle">Shipping & Returns</h6>
             <h6 className="subtitleMiddle">Guarantee</h6>
-            <h6 className="subtitleMiddle">4</h6>
           </div>
           <div className="middle3">
             <h4 className="titleMiddle1">COMPANY</h4>

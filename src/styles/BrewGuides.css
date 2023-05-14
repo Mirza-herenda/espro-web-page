@@ -176,12 +176,14 @@ margin-top: 5%;
         position: relative;
         top: 0;
         left: 0;
+        padding: 2%;
     }
     
     .BrewLogo{
         position: absolute;
-        top: -15%;
-        left: 78%;
+        top: 4%;
+        left: 40%;
+        transition: translate(50%,-50%);
         animation: rotate 10s linear infinite;
         width: 52px;
     }

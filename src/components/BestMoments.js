@@ -15,7 +15,7 @@ function BestMoments() {
         <div className="textSection">
           <h3 className="title_1">SHOW US YOUR BEST POUR.</h3>
           <h2 className="descPart">
-            Making coffee better — one cup at a time. Share your best moments
+            Making coffee better ☕ — one cup at a time. Share your best moments
             with us #ESPRO
           </h2>
         </div>
