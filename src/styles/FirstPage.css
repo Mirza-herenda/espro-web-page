@@ -1,11 +1,13 @@
 .mainDiv {
   width: 100%;
-  height: 100%;
+  height: 100% !important;
+  margin: 0;
+  padding: 0;
 }
 .backgroundImage {
-  width: 100% !important;
-  height: 100% !important;
-  object-fit: contain !important;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 .BigTitle {
   font-family: "Barlow Condensed", sans-serif;
@@ -109,36 +111,28 @@
 
 @media screen and (max-width: 600px) {
   .BigTitle {
-    font-size: 18px;
+    font-size: 24px;
     position: absolute;
     border: 5px orange;
     color: #fff !important;
-    top: 60%;
+    top: 22%;
   }
   .subTitle {
-    font-size: 16px;
+    font-size: 10px;
     color: #fff !important;
     position: absolute;
-    top: 75%;
+    top: 30%;
     width: 300px;
   }
-
   .mainDiv {
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    height: 700px;
   }
-
-  .mainDiv img {
-    width: 100%;
-    height: 100%;
+  .backgroundImage {
+    height: 270px;
     object-fit: cover;
   }
   .FirstPageButton {
-    top: 90% !important;
+    top: 40% !important;
     width: 150px;
     height: 30px;
     font-size: 10px !important;
@@ -148,7 +142,7 @@
     height: 50px;
   }
   .exploreDiv {
-    top: 110%;
+    top: 58%;
     left: 48%;
     transition: translate(50%, -50%);
     position: absolute;

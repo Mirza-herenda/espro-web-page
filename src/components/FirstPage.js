@@ -7,7 +7,11 @@ import { Button } from "@mui/material";
 function FirstPage() {
   return (
     <div className="mainDiv">
-      <img src={backImage} alt="backgroundImage"></img>
+      <img
+        className="backgroundImage"
+        src={backImage}
+        alt="backgroundImage"
+      ></img>
       <h1 className="BigTitle">BREW ANYWHERE. BE ANYWHERE.</h1>
       <h4 className="subTitle">
         Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy

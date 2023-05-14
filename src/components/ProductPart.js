@@ -11,7 +11,13 @@ function ProductPart() {
           return (
             <div className="product">
               <img className="productImg" src={obj.img} alt="img"></img>
+              <img
+                className="productReplace"
+                src={obj.replaceImg}
+                style={{ backgroundColor: obj.colorReplace }}
+              ></img>
               <p className="ProjectTitle">{obj.name}</p>
+              <Button className="ProjectButton">SHOP NOW</Button>
             </div>
           );
         })}

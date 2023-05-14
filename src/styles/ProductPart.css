@@ -1,109 +1,139 @@
-.ExploreProduct{
-    text-align: center;
-    margin-top: 2%;
-    font-size: 40px;
-    font-family: 'Barlow Condensed', sans-serif;
-    font-weight: bold;
+.ExploreProduct {
+  text-align: center;
+  margin-top: 2%;
+  font-size: 40px;
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: bold;
 }
-.mainWrapper{
-    position: relative;
+
+.mainWrapper {
+  position: relative;
 }
-.productImg{
-    width: 411px;
-    height: 515px;
-    object-fit: cover;
+
+.productImg,
+.productReplace {
+  width: 411px;
+  height: 515px;
+  object-fit: cover;
 }
-.product{
-    width: 510px;
-    height: 515px;
-    position: relative;
+.productReplace {
+  text-align: center;
 }
-.wrapperOfProducts{
-    display: flex;
-    grid-template-columns: repeat(3,1fr);
-    grid-gap: 5%;
-    position: relative;
-    justify-content: center;
-    text-align: center;
-    margin-top: 2%;
+.product:hover .productImg {
+  display: none;
 }
-.ProjectTitle{
-    position: absolute;
-    top: 5%;
-    font-family: "Josefin Sans";
-    font-weight: bold;
-    color: white;
-    font-size: 22px;
-    padding-left: 4%;
+
+.product:hover .productReplace {
+  display: inline;
 }
-.ShopButton
-{
-    font-family: "Josefin Sans";
-    font-weight:normal ;
-    font-size: 17px;
-    color: rgba(34, 31, 32, 1) !important;
-    background-color: rgba(255, 255, 255, 1) !important;
+.product:hover .ProjectButton {
+  position: absolute !important;
+  top: 12% !important;
+  left: 8% !important;
+  font-family: "Josefin Sans" !important;
+  font-weight: bold !important;
+  color: black !important;
+  font-size: 12px !important;
+  padding-left: 0% !important;
+  background-color: #ffffff !important;
+  width: 150px !important;
+  height: 50px !important;
+  border-radius: 26px !important;
+  visibility: visible !important;
+}
+.productReplace {
+  display: none;
+}
+.ProjectButton {
+  visibility: hidden !important;
+}
+.product {
+  width: 510px;
+  height: 515px;
+  position: relative;
+}
+.wrapperOfProducts {
+  display: flex;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 5%;
+  position: relative;
+  justify-content: center;
+  text-align: center;
+  margin-top: 2%;
+}
+.ProjectTitle {
+  position: absolute;
+  top: 5%;
+  font-family: "Josefin Sans";
+  font-weight: bold;
+  color: white;
+  font-size: 22px;
+  padding-left: 4%;
+  left: 6%;
+}
+.ShopButton {
+  font-family: "Josefin Sans";
+  font-weight: normal;
+  font-size: 17px;
+  color: rgba(34, 31, 32, 1) !important;
+  background-color: rgba(255, 255, 255, 1) !important;
   text-align: center !important;
   position: absolute !important;
   border: 1px solid black !important;
   border-radius: 20px !important;
-padding: 10px 26px !important;
-top: 110% !important;
-left: 50% !important;
-transform: translate(-50%, -50%) !important;
-width: 208px !important;
-height: 50px !important;
-  
+  padding: 10px 26px !important;
+  top: 110% !important;
+  left: 50% !important;
+  transform: translate(-50%, -50%) !important;
+  width: 208px !important;
+  height: 50px !important;
 }
-.ShopButton:hover{
-    width: 218px !important;
-    height: 54px !important;
+.ShopButton:hover {
+  width: 218px !important;
+  height: 54px !important;
 }
 
-@media screen and (max-width:600px) {
-    .ExploreProduct{
-        margin-top: 90%;
-        font-size: 30px;
-    }
-    .wrapperOfProducts{
-        display: grid;
-        grid-template-columns: repeat(1,1fr);
-        grid-gap: 2%;
-        position: relative;
-    }
-    .ProjectTitle{
-        font-family: "Josefin Sans";
-        font-weight: bold;
-        color: white;
-        position: absolute;
+@media screen and (max-width: 600px) {
+  .ExploreProduct {
+    margin-top: 90%;
+    font-size: 30px;
+  }
+  .wrapperOfProducts {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 2%;
+    position: relative;
+  }
+  .ProjectTitle {
+    font-family: "Josefin Sans";
+    font-weight: bold;
+    color: white;
+    position: absolute;
     top: 5%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: #fff;
-    font-size:15px;
+    font-size: 15px;
     z-index: 1;
-        }
-    .productImg{
-        width: 270px;
-        height: 415px;
-        object-fit: cover;
-    }
-    .ShopButton{
-        position: absolute;
-        bottom:0;
-        left: 50%;
-        transform: translateX(-50%);
-        width: 150px;
-        height: 30px;
-        font-size: 10px !important;
-        margin-top: -10% !important;
-      
-    }
-    .product{
-        width: 270px;
-        height: 415px;
-        margin: 0 auto;
-
-    }
-    
+  }
+  .productImg {
+    width: 270px;
+    height: 415px;
+    object-fit: cover;
+  }
+  .ShopButton {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 150px;
+    height: 30px;
+    font-size: 10px !important;
+    margin-top: -10% !important;
+  }
+  .product {
+    width: 270px;
+    height: 415px;
+    margin: 0 auto;
+  }
 }

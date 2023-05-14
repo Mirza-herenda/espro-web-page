@@ -1,10 +1,12 @@
 import img from "../components/Assets/images/section4-1.png";
+import img1 from "../components/Assets/images/bestseller1.png";
+import img3 from "../components/Assets/images/bestseller3.png";
 import star from "../components/Assets/icons/Path 223@2x.png";
 
 export const ListOfCups = [
   {
     id: "1",
-    img: img,
+    img: img1,
     name: "ESPRO COFFEE FRENCH PRESS P7",
     price: "$109.95 - $139.95",
     color1: "#221F20",
@@ -34,7 +36,7 @@ export const ListOfCups = [
   },
   {
     id: "3",
-    img: img,
+    img: img3,
     name: "ESPRO COFFEE FRENCH PRESS P7",
     price: "$109.95 - $139.95",
     color1: "#221F20",
