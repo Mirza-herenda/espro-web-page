@@ -19,8 +19,12 @@ function PressPart() {
       <div className="logosDiv">
         {PressLogosList.map((obj, index) => {
           return (
-            <div className="logo">
-              <img src={obj.logo} onClick={() => PickQoute(index)}></img>
+            <div className="logo" key={obj.id}>
+              <img
+                src={obj.logo}
+                alt="logo"
+                onClick={() => PickQoute(index)}
+              ></img>
             </div>
           );
         })}

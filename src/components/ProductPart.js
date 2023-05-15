@@ -9,12 +9,13 @@ function ProductPart() {
       <div className="wrapperOfProducts">
         {ProductList.map((obj) => {
           return (
-            <div className="product">
+            <div className="product" key={obj.id}>
               <img className="productImg" src={obj.img} alt="img"></img>
               <img
                 className="productReplace"
                 src={obj.replaceImg}
                 style={{ backgroundColor: obj.colorReplace }}
+                alt="imgReplace"
               ></img>
               <p className="ProjectTitle">{obj.name}</p>
               <Button className="ProjectButton">SHOP NOW</Button>

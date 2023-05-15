@@ -25,7 +25,7 @@ function ExpriencePart() {
   return (
     <div className="WrapperExprience">
       <div className="LeftDiv">
-        <img className="img1" src={img1}></img>
+        <img className="img1" src={img1} alt="img1"></img>
         <div className="textContainer">
           <h3 className="titleOne">MAKE EVERY CUP AN EXPERIENCE.</h3>
           <p className="titleTwo">
@@ -38,7 +38,7 @@ function ExpriencePart() {
         </div>
       </div>
       <div className="rightDiv">
-        <img className="rightImg" src={slide.src}></img>
+        <img className="rightImg" src={slide.src} alt="rightImg"></img>
         <h4 className="titleAboveImg">PRESS. SIP. ENJOY.</h4>
       </div>
       <div />

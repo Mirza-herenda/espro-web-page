@@ -45,8 +45,18 @@ function CoffeePart() {
   return (
     <div className="MainDivCoffee">
       <div className="leftImages" style={{ transform: leftImagesTransform }}>
-        <img className="img2" src={img2} style={{ transform: img2Transform }} />
-        <img className="img1" src={img1} style={{ transform: img1Transform }} />
+        <img
+          className="img2"
+          src={img2}
+          style={{ transform: img2Transform }}
+          alt="img2"
+        />
+        <img
+          className="img1"
+          src={img1}
+          style={{ transform: img1Transform }}
+          alt="img1"
+        />
       </div>
       <div className="titleBox">
         <h3 className="title1">DESIGNED FOR REAL LIFE</h3>
@@ -67,9 +77,24 @@ function CoffeePart() {
       </div>
 
       <div className="RightImages">
-        <img className="img3" src={img3} style={{ transform: img3Transform }} />
-        <img className="img4" src={img4} style={{ transform: img4Transform }} />
-        <img className="img5" src={img5} style={{ transform: img5Transform }} />
+        <img
+          className="img3"
+          src={img3}
+          style={{ transform: img3Transform }}
+          alt="img3"
+        />
+        <img
+          className="img4"
+          src={img4}
+          style={{ transform: img4Transform }}
+          alt="img4"
+        />
+        <img
+          className="img5"
+          src={img5}
+          style={{ transform: img5Transform }}
+          alt="img5"
+        />
       </div>
     </div>
   );

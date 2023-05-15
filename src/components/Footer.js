@@ -54,7 +54,7 @@ function Footer() {
       <Toolbar className="BottomToolBar">
         <Box className="middle">
           <div className="middle0">
-            <img className="whiteLogo" src={whiteLogo}></img>
+            <img className="whiteLogo" src={whiteLogo} alt="whiteLogo"></img>
             <h3 className="leftTitle">
               We’re here to help. service@espro.com 1.844.377.7622
             </h3>
@@ -86,19 +86,19 @@ function Footer() {
                 className="IconBtn"
                 sx={{ display: "flex", alignItems: "center" }}
               >
-                <img src={FBicon}></img>
+                <img src={FBicon} alt="fbIcon"></img>
               </IconButton>
               <IconButton
                 className="IconBtn"
                 sx={{ display: "flex", alignItems: "center" }}
               >
-                <img src={InstIcon}></img>
+                <img src={InstIcon} alt="instIcon"></img>
               </IconButton>
               <IconButton
                 className="IconBtn"
                 sx={{ display: "flex", alignItems: "center" }}
               >
-                <img src={Twittericon}></img>
+                <img src={Twittericon} alt="TwitterIcon"></img>
               </IconButton>
             </div>
           </div>

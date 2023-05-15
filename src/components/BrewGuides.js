@@ -29,8 +29,8 @@ function BrewGuides() {
         </div>
       </div>
       <div className="rightPart">
-        <img className="imgBrew" src={imgBrew}></img>
-        <img className="BrewLogo" src={BrewLogo}></img>
+        <img className="imgBrew" alt="imgBrew" src={imgBrew}></img>
+        <img className="BrewLogo" alt="brewLogo" src={BrewLogo}></img>
       </div>
       <div />
     </div>

@@ -21,16 +21,17 @@ function BestMoments() {
         </div>
         <Button className="ButtonFollowUs">
           {" "}
-          <img className="InstIcon" src={instIcon}></img> Follow us
+          <img className="InstIcon" alt="instIcon" src={instIcon}></img> Follow
+          us
         </Button>
       </div>
 
       <div className="imgSection">
-        <img className="drinkImg" src={drinkImg}></img>
-        <img className="menM" src={menM}></img>
-        <img className="drinkImg2" src={drinkImg2}></img>
-        <img className="womenM" src={womenM}></img>
-        <img className="drinkImg3" src={drinkImg3}></img>
+        <img className="drinkImg" alt="drinkImg" src={drinkImg}></img>
+        <img className="menM" alt="menM" src={menM}></img>
+        <img className="drinkImg2" alt="drinkImg2" src={drinkImg2}></img>
+        <img className="womenM" alt="womenM" src={womenM}></img>
+        <img className="drinkImg3" alt="drinkImg3" src={drinkImg3}></img>
       </div>
     </div>
   );

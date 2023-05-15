@@ -89,6 +89,7 @@
   display: flex;
   text-align: right;
   width: 500px;
+  overflow: hidden;
 }
 .leftImages {
   margin-left: -10%;

@@ -41,8 +41,8 @@
 .counterBtn {
   background-color: rgba(101, 154, 177, 1) !important;
   color: rgba(34, 31, 32, 1) !important;
-  width: 24px;
-  height: 24px;
+  width: 28px;
+  height: 28px;
   font-size: small !important;
   margin-top: 1% !important;
 }
@@ -52,7 +52,10 @@
 .modal {
   display: none;
 }
-
+.BtnHeader:hover {
+  border-bottom: 1px solid rgba(141, 185, 202, 1) !important;
+  font-size: 13px !important;
+}
 @media screen and (max-width: 600px) {
   .BtnHeader,
   .counterBtn,

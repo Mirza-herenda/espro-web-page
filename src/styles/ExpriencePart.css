@@ -142,7 +142,6 @@
     padding-left: 0;
     padding-right: 2%;
     animation: zoom 5s infinite alternate;
-    border: 1px solid green;
   }
   @keyframes zoom {
     from {

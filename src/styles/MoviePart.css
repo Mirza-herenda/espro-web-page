@@ -32,11 +32,12 @@
   text-align: center;
 }
 .img11 {
-  width: 1290px;
+  width: 1190px;
   height: 680px;
   object-fit: cover;
   border-radius: 20px;
   animation: zoom 5s infinite alternate;
+  margin-top: 3%;
 }
 @keyframes zoom {
   from {
