@@ -102,32 +102,28 @@
     display: flex;
     flex-direction: column;
     height: auto;
-    margin-top: 80%;
+    margin-top: 35%;
   }
 
   .LeftDiv {
-    background: url("../components/Assets/images/mountain.png");
-    background-repeat: no-repeat;
-    background-size: cover;
     width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
+    background-image: url("../components/Assets/images/mountain.png");
+    background-size: cover;
+    background-position: center;
   }
   .img1 {
     background-color: #add8e6;
   }
 
   .titleOne {
-    font-size: 20px;
+    font-size: 22px;
+    margin-top: -11%;
   }
 
   .titleTwo {
-    font-size: 10px;
+    font-size: 8px;
     width: 80%;
-    margin-top: 4%;
+    margin-top: 3%;
   }
 
   .rightDiv {
@@ -150,6 +146,10 @@
     width: 125px !important;
     height: 35px !important;
     font-size: 10px !important;
-    margin-top: 10% !important ;
+    margin-top: 4% !important ;
+  }
+  .buttonShopTravel:hover {
+    width: 135px !important;
+    height: 35px !important;
   }
 }

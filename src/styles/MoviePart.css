@@ -125,9 +125,10 @@
     padding: 2%;
   }
   .img11 {
-    max-width: 100%;
+    max-width: 90%;
     height: auto;
     border-radius: 20px;
+    margin-top: 8%;
   }
   .textDiv2 {
     transform: translate(-50%, -60%);
