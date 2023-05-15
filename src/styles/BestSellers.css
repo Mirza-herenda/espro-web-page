@@ -116,4 +116,7 @@ p {
   .divImage:hover {
     transform: none;
   }
+  .desc {
+    left: 2%;
+  }
 }

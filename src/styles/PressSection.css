@@ -22,6 +22,7 @@
   height: 106px;
   margin: 0 auto;
   text-align: center;
+  justify-content: center;
 }
 .quotes {
   font-size: 22px;

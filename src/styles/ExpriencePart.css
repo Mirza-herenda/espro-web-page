@@ -102,7 +102,7 @@
     display: flex;
     flex-direction: column;
     height: auto;
-    margin-top: 35%;
+    margin-top: 45%;
   }
 
   .LeftDiv {
@@ -136,11 +136,20 @@
   }
 
   .titleAboveImg {
-    font-size: 28px;
+    font-size: 25px;
     top: 85%;
     width: 100%;
     padding-left: 0;
     padding-right: 2%;
+    animation: zoom 5s infinite alternate;
+  }
+  @keyframes zoom {
+    from {
+      transform: scale(1);
+    }
+    to {
+      transform: scale(1.2);
+    }
   }
   .buttonShopTravel {
     width: 125px !important;
