@@ -131,17 +131,18 @@
     height: 100%;
   }
   .rightImg {
-    width: 230px;
+    width: 280px;
     height: 180px;
   }
 
   .titleAboveImg {
     font-size: 25px;
     top: 85%;
-    width: 100%;
+    width: 85%;
     padding-left: 0;
     padding-right: 2%;
     animation: zoom 5s infinite alternate;
+    border: 1px solid green;
   }
   @keyframes zoom {
     from {
