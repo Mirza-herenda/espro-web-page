@@ -181,11 +181,11 @@
   }
   .closeBtn {
     font-size: 10px !important;
-    bottom: 10% !important ;
+    margin-top: -15% !important ;
     left: 1% !important;
   }
   .modalImage {
     width: 100vw;
-    height: 67vh;
+    height: 60vh;
   }
 }
